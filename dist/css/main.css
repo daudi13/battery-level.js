@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+
+.sec {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  -webkit-transform: translate(-150px, -100px);
+          transform: translate(-150px, -100px);
+  width: 250px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bda7a7), to(#28052e));
+  background: linear-gradient(#bda7a7, #28052e);
+  height: 250px;
+  border-radius: 50%;
+}
+
+section::after {
+  content: '';
+  position: absolute;
+  -webkit-transform: translate(300px, 250px);
+          transform: translate(300px, 250px);
+  width: 350px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b94b4b), to(#080c1b));
+  background: linear-gradient(#b94b4b, #080c1b);
+  height: 350px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */
